@@ -1,34 +1,61 @@
 ---
-title: Page Not Found
+layout: default
+title: Error-404
 ---
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-<head>
-	{%- include head.html -%}
-	<style>
-	h2 {
-		font-feature-settings: "lnum";
-		background-color: #ddd;
-		width: 140px;
-		height: 140px;
-		border-radius: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center
-	}
-	body {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: column;
-		font-size: 20px;
-		height: 80vh;
-	}
-	p {text-align: center; line-height: 2em;}
-	</style>
-</head>
-<body>
-	<h2>404</h2>
-	<p>Page not found.</p>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>Page not found</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<!--<script>
+var tumblr_urls = {
+  "481294692": "2010/03/29/via-lostinthesounds.html",
+  "1102100156": "2010/02/03/beautiful-packaging-from-chocolate-organiko.html"
+};
+var gitblog_urls = {
+  "2002/03/construction": "2002/03/11/construction.html",
+  "2002/03/deployment": "2002/03/11/deployment.html",
+};
+
+var m, path = document.location.pathname;
+var dst_path = gitblog_urls[path.substr(1)];
+if (!dst_path && (m = path.match(/^\/post\/([0-9]+)\//)) ) {
+  dst_path = tumblr_urls[m[1]];
+}
+if (dst_path) {
+  document.location.pathname = '/'+dst_path;
+}
+window.onload = function() {
+  document.getElementById('search_box').value =
+      path.replace(/^[\/0-9]+|\.[^\.]+$/g, '').replace(/[_\/-]/g, ' ');
+};
+</script>
+-->  <style type="text/css" media="screen">
+    body { font-family:sans-serif; margin:4em 10em; }
+    a { color:inherit; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+  </style>
+  </head>
+  <body>
+    <div class="content">
+      <img src="/res/404-code.png" class="profile-picture" width="256" align="right">
+      <img src="/res/404.png" class="profile-picture" width="48" align="left">
+      <h1>Упс, что-то пошло не так.</h1>
+      <h3>Похоже Вы перешли по мертвой ссылке.</h3>
+        <p>Мы знаем о проблеме и уже работаем над её устранением.
+          Пополбуйте обновить страницу или зайти позже.</p>
+      <h3><a href="javascript:history.back();">Вернуться «Назад»...</a></h3>
+<!--        </br> Воспользуйтесь поиском по сайту:</p>
+      <form action="http://www.google.com/cse" id="cse-search-box" target="_blank">
+        <div>
+          <input type="hidden" name="cx" value="006553118601910168903:-x3qflztwei" />
+          <input type="hidden" name="ie" value="UTF-8" />
+          <input type="text" id="search_box" name="q" size="31" />
+          <input type="submit" name="sa" value="Search" />
+        </div>
+      </form> -->
+    </div>
+  </body>
 </html>
