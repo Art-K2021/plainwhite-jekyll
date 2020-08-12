@@ -11,19 +11,29 @@ show_excerpts: true # set to true to show excerpts on the homepage
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 sass:
   sass_dir: _sass
+
 plainwhite:
   name: Artem Koshlatyi
   tagline: System Administrator / IT Engineer / DevOps
   date_format: "%b %-d, %Y"
-  sitemap: true # set to true to generate sitemap.xml content
-  search: true # set to true to enable searchbar
-  dark_mode: true # set to true to add dark mode toggle
+  sitemap: true                     # set to true to generate sitemap.xml content
+  search: true                      # set to true to enable searchbar
+  dark_mode: true                   # set to true to add dark mode toggle
 
+  analytics_id: "UA-175319971-1"
+  disqus_shortname: games
+  
+  navigation:
+    - title: POSTS
+      url: "/Post"
+    - title: CV
+      url: "/CV"
+  
   # generate social links in footer
   social_links:
     email: tyoxa.online@google.com
 #   phone: 012 345 6789
-    website: tyoxa.online/online-cv  #do not add http://
+    website: tyoxa.online         #do not add http://
 #   linkedin: alandoe
 #   github: sharu725
     telegram: tyoxa
