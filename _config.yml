@@ -24,8 +24,8 @@ plainwhite:
   disqus_shortname: games
   
   navigation:
-    - title: POSTS
-      url: "/Post"
+#    - title: POSTS
+#      url: "/Post"
     - title: CV
       url: "/CV"
   
