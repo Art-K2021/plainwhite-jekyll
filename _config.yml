@@ -12,8 +12,8 @@ show_excerpts: true # set to true to show excerpts on the homepage
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Adam Denisov
-  tagline: Developer. Designer
+  name: Artem Koshlatyi
+  tagline: Senior System Administrator / IT Engineer / DevOps
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   search: true # set to true to enable searchbar
@@ -21,10 +21,13 @@ plainwhite:
 
   # generate social links in footer
   social_links:
-    twitter: thelehhman
-    github:  thelehhman
-    linkedIn: in/thelehhman
-    rss: rss
+    email: tyoxa.online@google.com
+#   phone: 012 345 6789
+    website: tyoxa.online/online-cv  #do not add http://
+#   linkedin: alandoe
+#   github: sharu725
+    telegram: tyoxa
+#   rss: rss
     # dribbble: jekyll
     # flickr:   jekyll
     # instagram: jekyll
