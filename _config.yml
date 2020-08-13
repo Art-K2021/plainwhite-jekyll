@@ -27,7 +27,7 @@ plainwhite:
 #    - title: POSTS
 #      url: "/Post"
     - title: CV
-      url: "/CV"
+      url: "tyoxa.online"
   
   # generate social links in footer
   social_links:
