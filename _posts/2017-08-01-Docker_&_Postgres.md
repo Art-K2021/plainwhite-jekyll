@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Докеризация высокодоступного Postgres кластера / Хабрахабр
-date:   2019-03-23 21:03:36 +0530
+date:   2017-08-01 23:03:56 +0530
 categories: Docker PostgreSQL
 ---
 
