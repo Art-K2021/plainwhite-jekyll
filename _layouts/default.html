@@ -136,6 +136,10 @@
   <script src="/assets/js/simple-jekyll-search.min.js"></script>
   <script src="/assets/js/search.js"></script>
   {% endif %}
-</body>
 
+    {% include highlight.html %}
+    {% include analytics.html %}
+
+    <script>for (var k in window.initFuncs) { window.initFuncs[k](); } delete window.initFuncs;</script>
+  </body>
 </html>
