@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+{% capture build_version %}{{ site.time | date: "%Y%m%d%H%M%S" }}{% endcapture %}<!DOCTYPE HTML>
+<html lang="en" prefix="og: http://ogp.me/ns#">
 
 <head>
   {%- include head.html -%}
@@ -136,6 +136,7 @@
   <script src="/assets/js/simple-jekyll-search.min.js"></script>
   <script src="/assets/js/search.js"></script>
   {% endif %}
+
 
     {% include highlight.html %}
     {% include analytics.html %}
