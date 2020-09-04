@@ -14,7 +14,7 @@ sass:
 
 plainwhite:
   name: Artem Koshlatyi
-  tagline: IT Engineer & DvOps
+  tagline: IT Engineer & DevOps
   date_format: "%b %-d, %Y"
   sitemap: true                     # set to true to generate sitemap.xml content
   search: true                      # set to true to enable searchbar
