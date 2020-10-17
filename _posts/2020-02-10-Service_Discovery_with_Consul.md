@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Service Discovery в распределенных системах на примере Consul. Александр Сигачев / Хабр
+title: Service Discovery в распределенных системах на примере Consul /Хабр/
 date:  2020-02-10 20:16:32 +0530
 categories: Consul Load-balancer Service-Discovery
 ---
